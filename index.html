@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Gone Goat is a fast, replayable card game for 2–8 players. Get notified when we launch on Kickstarter." />
+
+  <!-- Open Graph — swap in a real image (1200×630px) before launch -->
+  <meta property="og:title" content="Gone Goat — Card Game" />
+  <meta property="og:description" content="The fast card game where the goats always get out. Coming to Kickstarter." />
+  <meta property="og:type" content="website" />
+  <!-- <meta property="og:image" content="./assets/og-image.jpg" /> -->
+
+  <title>Gone Goat — Card Game | Coming to Kickstarter</title>
+
+  <!--
+    Typography: Barlow Condensed (display/headings) + Barlow (body).
+    Both from one Google Fonts request — single round-trip, no layout shift with display=swap.
+    Swap for self-hosted fonts if you need zero external requests.
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- =============================================
+       SITE HEADER
+       Sticky. Logo left, CTA right.
+       JS adds .scrolled class after 20px scroll for
+       border + background opacity transition.
+  ============================================= -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="logo" aria-label="Gone Goat — back to top">
+        <span class="logo-text">Gone Goat</span>
+      </a>
+      <a href="#signup" class="btn btn-outline btn-sm">Get notified</a>
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- =============================================
+         HERO
+         First impression. Value prop + CTA visible
+         without scrolling on any device.
+
+         ARTWORK: Replace .hero-art-inner with an <img>
+         when final art is ready. Recommended size:
+         1200×900px, WebP with JPEG fallback.
+         The gradient approximates the fire/glow in
+         your existing artwork.
+    ============================================= -->
+    <section id="hero" class="section section-hero">
+      <div class="container">
+
+        <!--
+          ARTWORK PLACEHOLDER
+          Remove this entire block and replace with:
+          <figure class="hero-art">
+            <img src="./assets/hero-art.webp"
+                 alt="Gone Goat card game — goats charging with stolen books"
+                 width="1200" height="900" loading="eager" />
+          </figure>
+        -->
+        <div class="hero-art" aria-hidden="true">
+          <div class="hero-art-inner">
+            <span class="hero-art-label">Game artwork goes here</span>
+          </div>
+        </div>
+
+        <h1 class="hero-title">Gone<br>Goat</h1>
+
+        <p class="hero-value-prop">
+          A chaotic Rummy-style card game where escaped goats eat library books and weaponize the ideas inside them.
+        </p>
+
+        <p class="hero-sub">
+          2–8 players &nbsp;·&nbsp; 1 or 2 decks &nbsp;·&nbsp; Ready in minutes
+        </p>
+
+        <p class="hero-credibility">
+          Designed for game nights. Tested through 88,000 computer simulations.
+        </p>
+
+        <a href="#signup" class="btn btn-primary btn-lg hero-cta">
+          Get notified on launch
+        </a>
+
+        <p class="hero-footnote">
+          Launching on Kickstarter — be the first to know.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         WHAT IT IS
+         2–3 paragraphs. Tone: clear, human, not hypey.
+         Update copy once you have final game flavor text.
+    ============================================= -->
+    <section id="what-it-is" class="section section-alt">
+      <div class="container">
+
+        <h2>What is Gone Goat?</h2>
+
+        <p>
+          Gone Goat is a card game about chaos, mischief, and goats that never
+          stay where you put them. It's easy to teach, fast to play, and gets
+          louder every time someone new pulls up a chair.
+        </p>
+
+        <p>
+          Each round builds tension as players read each other's moves, time
+          their plays, and try not to be the one left holding everything when
+          the goats finally bolt. Expect last-second saves, honest betrayals,
+          and immediate demands for a rematch.
+        </p>
+
+        <p>
+          Everything fits in a standard poker-size tuck box — pocket-sized,
+          shelf-worthy, and ready to hit the table in under five minutes.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         HOW IT PLAYS
+         Bullet points. Keep mechanical language light
+         here — this is about curiosity, not the rulebook.
+
+         NOTE: Update the three step sections with your
+         actual setup, turn structure, and win condition
+         before launch. Bracketed lines are placeholders.
+    ============================================= -->
+    <section id="how-it-plays" class="section">
+      <div class="container">
+
+        <h2>What it feels like to play</h2>
+
+        <div class="play-steps">
+
+          <div class="play-step">
+            <h3>Setup</h3>
+            <ul>
+              <li>Shuffle the deck and deal each player a starting hand</li>
+              <li>Place remaining cards face-down as a draw pile in the center</li>
+              <li>Youngest player goes first — or whoever looks most guilty</li>
+              <!-- UPDATE: Replace with your actual setup steps -->
+            </ul>
+          </div>
+
+          <div class="play-step">
+            <h3>On your turn</h3>
+            <ul>
+              <li>Play cards from your hand to press your advantage</li>
+              <li>Trigger effects, respond to other players, chain actions</li>
+              <li>Draw back up and brace for what comes next</li>
+              <!-- UPDATE: Replace with your actual turn structure -->
+            </ul>
+          </div>
+
+          <div class="play-step">
+            <h3>Winning</h3>
+            <ul>
+              <li>Outmaneuver your opponents to reach the win condition first</li>
+              <li>Every game plays out differently — no two rounds feel the same</li>
+              <!-- UPDATE: Replace with your specific win condition -->
+            </ul>
+          </div>
+
+        </div>
+
+        <!--
+          MEDIA PLACEHOLDER
+          Good place for a short GIF or 15–30 second looping video
+          showing actual gameplay. No audio needed.
+          Replace this div with:
+          <video src="./assets/gameplay-loop.mp4" autoplay loop muted playsinline
+                 aria-label="Gone Goat gameplay in action"></video>
+          OR:
+          <img src="./assets/gameplay-photo.jpg" alt="Gone Goat being played at a table" />
+        -->
+        <div class="media-placeholder" aria-hidden="true">
+          <span>Gameplay photo or video goes here</span>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         PLAYER COUNT
+         The 1-deck / 2-deck distinction is a key
+         purchase decision. Make it visible and clear.
+    ============================================= -->
+    <section id="player-count" class="section section-alt">
+      <div class="container">
+
+        <h2>Pick your table size</h2>
+
+        <p class="section-intro">
+          Gone Goat scales from a tight two-player game to a full table of eight.
+          Same rules either way — just more chaos with more people.
+        </p>
+
+        <div class="deck-grid">
+
+          <div class="deck-card">
+            <div class="deck-badge deck-badge-orange" aria-hidden="true">
+              <!--
+                Replace the number with a small deck icon SVG if you have one.
+                Recommended size: 40×40px.
+              -->
+              1
+            </div>
+            <h3>One deck</h3>
+            <p class="deck-count">2–4 players</p>
+            <p>Tight and tactical. Every card matters and you'll know exactly who's ahead.</p>
+          </div>
+
+          <div class="deck-card">
+            <div class="deck-badge deck-badge-yellow" aria-hidden="true">
+              2
+            </div>
+            <h3>Two decks</h3>
+            <p class="deck-count">5–8 players</p>
+            <p>More players, more cards, more mayhem. Built for a full game night crowd.</p>
+          </div>
+
+        </div>
+
+        <p class="deck-note">
+          Standard poker-size cards. Tuck box packaging. Fits in a jacket pocket.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         WHO IT'S FOR
+         Short bullet list. Helps readers self-select.
+    ============================================= -->
+    <section id="who-its-for" class="section">
+      <div class="container">
+
+        <h2>Who it's for</h2>
+
+        <ul class="audience-list">
+          <li>Friends who want something to do besides stare at their phones</li>
+          <li>Game nights that need a fast, low-barrier opener or closer</li>
+          <li>Households with teens who've played every card game twice</li>
+          <li>Casual players who want real depth without a two-hour rulebook</li>
+          <li>Anyone who has ever been stabbed in the back at a game table and immediately wanted another round</li>
+        </ul>
+
+        <p class="who-note">Ages 14 and up. No prior card game experience needed.</p>
+
+        <div class="section-cta">
+          <a href="#signup" class="btn btn-outline btn-lg">Get launch updates</a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         EMAIL SIGNUP
+         Primary conversion section. Keep it focused.
+         Form handled by script.js — see that file for
+         backend configuration (Supabase or custom API).
+    ============================================= -->
+    <section id="signup" class="section section-signup">
+      <div class="container">
+
+        <h2>Be the first to know</h2>
+
+        <p class="signup-intro">
+          Gone Goat is heading to Kickstarter. Leave your email and we'll send
+          one message when the campaign goes live — nothing else, ever.
+        </p>
+
+        <form id="signup-form" class="signup-form" novalidate>
+
+          <div class="form-row">
+            <!--
+              Label is visually hidden but present for screen readers.
+              The placeholder text reinforces what the field is for.
+            -->
+            <label for="email" class="visually-hidden">Email address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="your@email.com"
+              autocomplete="email"
+              inputmode="email"
+              required
+              aria-required="true"
+              aria-describedby="form-status"
+            />
+            <button type="submit" class="btn btn-primary btn-submit">
+              Notify me
+            </button>
+          </div>
+
+          <!--
+            Status message area — JS writes success/error here.
+            role="status" + aria-live="polite" announces changes to screen readers.
+          -->
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+
+          <p class="form-privacy">
+            No spam, ever. Your email is only used to notify you about the
+            Gone Goat Kickstarter launch.
+          </p>
+
+        </form>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         ABOUT THE CREATOR
+         Short, honest, human. Not a press bio.
+         NOTE: Update with your real bio + photo.
+    ============================================= -->
+    <section id="about" class="section section-alt">
+      <div class="container">
+
+        <h2>About the creator</h2>
+
+        <div class="about-inner">
+
+          <!--
+            CREATOR PHOTO PLACEHOLDER
+            Replace this div with:
+            <img class="creator-photo" src="./assets/creator-photo.jpg"
+                 alt="Terry, creator of Gone Goat"
+                 width="100" height="100" />
+            Recommended: 200×200px minimum, square crop, compressed WebP.
+          -->
+          <div class="creator-photo" aria-hidden="true">
+            <span>Photo</span>
+          </div>
+
+          <div class="about-text">
+            <p>
+              Hi — I'm Terry. I've been drawing, designing, and making things
+              for as long as I can remember, and Gone Goat is the project I've
+              been building toward without fully realizing it.
+            </p>
+            <p>
+              The idea started with the characters — goats with too much
+              personality and nowhere to put it — and grew into a game I
+              genuinely love playing with people. I'm excited to bring it to
+              more tables.
+            </p>
+            <!-- UPDATE: Add your actual bio here before launch -->
+            <p class="about-social">
+              Follow the build on Instagram:&nbsp;
+              <a href="https://instagram.com/terryheathart" target="_blank" rel="noopener noreferrer">
+                @terryheathart
+              </a>
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- =============================================
+       FOOTER
+  ============================================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+
+      <p class="footer-brand">Gone Goat</p>
+
+      <!--
+        Replace the span with a real link once your KS page is live:
+        <a href="https://www.kickstarter.com/projects/..." class="ks-badge"
+           target="_blank" rel="noopener noreferrer">
+          View on Kickstarter →
+        </a>
+      -->
+      <p>
+        <span class="ks-badge">Launching on Kickstarter</span>
+      </p>
+
+      <nav class="footer-social" aria-label="Social links">
+        <a href="https://instagram.com/terryheathart" target="_blank" rel="noopener noreferrer">
+          Instagram
+        </a>
+        <!-- Add more when ready:
+        <a href="#" target="_blank" rel="noopener noreferrer">TikTok</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+        -->
+      </nav>
+
+      <p class="footer-legal">
+        &copy; <span id="year"></span> Gone Goat. All rights reserved.
+      </p>
+
+    </div>
+  </footer>
+
+
+  <!-- =============================================
+       STICKY CTA BAR
+       Hidden on load. Slides up once the hero CTA
+       scrolls out of view, hides again when the full
+       signup section is on screen.
+       Controlled entirely by script.js + CSS.
+  ============================================= -->
+  <div id="sticky-cta" class="sticky-cta" aria-hidden="true">
+    <div class="sticky-cta-inner container">
+      <span class="sticky-cta-text">Gone Goat — Coming to Kickstarter</span>
+      <a href="#signup" class="btn btn-primary btn-sm">Get notified</a>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
