@@ -342,39 +342,19 @@ em {
 /* Artwork block */
 .hero-art {
   margin-inline: auto;
-  margin-bottom: 2.5rem;
-  max-width: 460px;
+  margin-bottom: 2rem;
+  max-width: 500px;
   width: 100%;
 }
 
-.hero-art-inner {
-  position: relative;
+.hero-art img {
   width: 100%;
-  aspect-ratio: 4 / 3;
-  border-radius: var(--radius-xl);
-  overflow: hidden;
-
+  height: auto;
+  display: block;
   /*
-    Placeholder gradient evokes the artwork's fire/glow background.
-    Replace this entire block once you have the real hero image.
+    No border-radius — the image has natural black edges that
+    fade directly into the dark site background.
   */
-  background:
-    radial-gradient(ellipse at 50% 35%, #8b3a0a 0%, #4e1e05 42%, #1d0f04 70%, #0f0e0d 100%);
-  border: 1px solid var(--border);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero-art-label {
-  font-family: var(--font-display);
-  font-size: 0.8125rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-  opacity: 0.45;
 }
 
 /* Main title */

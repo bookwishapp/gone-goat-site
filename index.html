@@ -58,22 +58,23 @@
     <section id="hero" class="section section-hero">
       <div class="container">
 
-        <!--
-          ARTWORK PLACEHOLDER
-          Remove this entire block and replace with:
-          <figure class="hero-art">
-            <img src="./assets/hero-art.webp"
-                 alt="Gone Goat card game — goats charging with stolen books"
-                 width="1200" height="900" loading="eager" />
-          </figure>
-        -->
-        <div class="hero-art" aria-hidden="true">
-          <div class="hero-art-inner">
-            <span class="hero-art-label">Game artwork goes here</span>
-          </div>
-        </div>
+        <figure class="hero-art">
+          <!--
+            WebP source: add this <source> when you have a WebP version:
+            <source srcset="./assets/hero-art.webp" type="image/webp" />
+          -->
+          <img
+            src="./assets/hero-art.png"
+            alt="Gone Goat card game — three mischievous goats charging with stolen library books while a scowling librarian looks on"
+            width="600"
+            height="900"
+            loading="eager"
+            fetchpriority="high"
+          />
+        </figure>
 
-        <h1 class="hero-title">Gone<br>Goat</h1>
+        <!-- Title is embedded in the hero image; kept here for screen readers and SEO -->
+        <h1 class="hero-title visually-hidden">Gone Goat</h1>
 
         <p class="hero-value-prop">
           A chaotic Rummy-style card game for 2–8 players — where escaped goats eat library books and weaponize the ideas inside them.
