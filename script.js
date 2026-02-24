@@ -36,8 +36,8 @@
 const CONFIG = {
 
   /* --- Supabase (Option A) --- */
-  SUPABASE_URL:      '',     // e.g. 'https://abcdefghij.supabase.co'
-  SUPABASE_ANON_KEY: '',     // Your public anon key — safe to expose in JS
+  SUPABASE_URL:      'https://mdqinxokexygytnywwsx.supabase.co',
+  SUPABASE_ANON_KEY: 'sb_publishable_2KsjZLEOrJ1K11Qjr9no7Q_EJh_wxYd',
   SUPABASE_TABLE:    'subscribers',
 
   /* --- Custom endpoint (Option B) --- */
