@@ -460,20 +460,18 @@ em {
   margin-top: 0.58em;   /* Optically aligns with cap-height of first line */
 }
 
-/* Gameplay media placeholder */
-.media-placeholder {
+/* Gameplay image */
+.gameplay-media {
   width: 100%;
-  aspect-ratio: 16 / 9;
-  background-color: var(--bg-card);
-  border: 1px dashed var(--border);
   border-radius: var(--radius-lg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-muted);
-  font-size: 0.875rem;
-  text-align: center;
-  padding: 1.5rem;
+  overflow: hidden;
+}
+
+.gameplay-media img,
+.gameplay-media video {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* --- Who it's for --- */
